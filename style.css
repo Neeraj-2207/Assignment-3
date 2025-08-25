@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+.header {
+    background: #f0f0f0;
+    /* color: white; */
+    text-align: center;
+    padding: 10px;
+}
+#heading{
+    font-size: 1.5rem;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    padding: 100px 0;
+    gap: 7rem;
+}
+.boxes{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+.box:hover {
+    transform: scale(1.05);
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input[type="text"] {
+    padding: 7px;
+    width: 250px;
+    border: 2px solid #333;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+.cta-btn{
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.cta-btn:hover {
+    background: #555;
+}

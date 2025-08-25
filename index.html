@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment-3</title>
+</head>
+
+<body>
+    <div class="header">
+        <p id="heading">Hello</p>
+    </div>
+    <main>
+        <div class="container">
+            <div class="boxes">
+                <div class="box" id="red" onclick="changeColor('red')">Red</div>
+                <div class="box" id="blue" onclick="changeColor('blue')">Blue</div>
+                <div class="box" id="green" onclick="changeColor('green')">Green</div>
+                <div class="box" id="yellow" onclick="changeColor('yellow')">Yellow</div>
+            </div>
+            <form action="#" onsubmit="greet()">
+                <input type="text" name="text" id="text" placeholder="Enter your name" >
+                <button class="cta-btn" type="button" onclick="greet()">Greet</button>
+            </form>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
